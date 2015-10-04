@@ -25,7 +25,7 @@ time ruby fizzbuzz.rb %2> /dev/null
 probably `expr`command in shellscript is very slow...
 
 |language|loop num|time(sec)|
-|--|-|-|
+|---------------------|-----------|-------|
 |shellscript|1,000|7.697|
 |python2.7(Cpython)|1,000,000|0.827|
 |golang|1,000,000|0.789|
