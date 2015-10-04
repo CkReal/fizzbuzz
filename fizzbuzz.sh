@@ -17,7 +17,7 @@ fizzbuzz() {
         fi
     done
     return 0
-} 
+}
 
 main() {
     fizzbuzz
