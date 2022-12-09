@@ -15,7 +15,7 @@ golang
 go build fizzbuzz.go
 time ./fizzbuzz %2> /dev/null
 ```
-ruby2.0
+ruby3.1.2
 ```
 time ruby fizzbuzz.rb %2> /dev/null
 ```
