@@ -3,19 +3,37 @@ This repository is FizzBuzz test and major speed each language.
 
 # How to Run
 shellscript
+
+```bash
+time sh ./fizz_buzz.sh %2> /dev/null
 ```
-time sh ./fizzbuzz.sh %2> /dev/null
+
+python 3.9(Cpython)
+
+```bash
+time python3 fizz_buzz.py %2> /dev/null
 ```
-python3.9(Cpython)
+
+golang 1.18.4
+
+```golang
+go build fizz_buzz.go && time ./fizz_buzz %2> /dev/null
 ```
-time python3 fizzbuzz.py %2> /dev/null
+
+ruby 3.1.2
+
+```bash
+time ruby fizz_buzz.rb %2> /dev/null
 ```
-golang
+
+rust 1.65.0
+
+```rust
+rustc fizz_buzz.rs && time ./fizz_buzz %2> /dev/null
 ```
-go build fizzbuzz.go
-time ./fizzbuzz %2> /dev/null
-```
-ruby3.1.2
-```
-time ruby fizzbuzz.rb %2> /dev/null
+
+node v18.12.1
+
+```bash
+time node fizz_buzz.js %2> /dev/null
 ```
