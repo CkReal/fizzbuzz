@@ -37,3 +37,14 @@ node v18.12.1
 ```bash
 time node fizz_buzz.js %2> /dev/null
 ```
+
+node v18.12.1
+
+```bash
+time node fizz_buzz.js %2> /dev/null
+```
+
+typescript 4.9.4
+```bash
+time npx ts-node fizz_buzz.ts %2> /dev/null
+```
